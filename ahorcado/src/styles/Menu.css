@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  section{
+    margin: auto;
+    width: 65%;
+    float: left;
+    padding: 0px 15px ;
+}
+
+aside{
+    margin: auto;
+    float: right;
+    width: 35%;
+    padding: 0px 20px ;
+    
+}
+
+.menu{
+  color: orangered;
+}
+
+.crud{
+  margin: auto;
+  width: 95%;
+  padding: 0px 15px ;
+}
+
+.containerLogo {
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: center;
+}
+
+.dropdown{ 
+  background-color:transparent;
+  border-color: transparent; 
+}
+
+.salir-nav{
+  cursor: pointer;
+  background: none;
+  border: none;
+}

@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo{
+  background: url('fondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.containerPrincipal {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid rgb(0, 0, 0);
+      padding: 40px;
+      background:rgba(44, 44, 48, 0.5);
+  }
+  
+  .containerSecundario{
+    text-align: center;
+  }
+
+  .enviar{
+    background-color: orangered;
+    color: white;
+}
+
+.probar{
+  background-color:green;
+  color: orangered;
+}
+
+.texto-claro{
+  color: white;
+}
